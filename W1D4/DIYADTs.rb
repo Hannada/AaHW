@@ -1,7 +1,7 @@
 class Stack
     def initialize
         # create ivar to store stack here!
-        @ivar = ivar 
+        @ivar = Array.new 
     end
 
     def push(el)
@@ -21,13 +21,35 @@ class Stack
 end
 
 class Queue 
+    def initialize
+        @var = Array.new 
+    end
+
     def enqueue(el)
+        @var.unshift(el)
     end
 
     def dequeue
+        @var.pop 
     end
 
     def peek
     end
-    
+
+end
+
+class Map 
+
+    def set(key, value)
+    end
+
+    def get(key)
+    end
+
+    def delete(key)
+    end
+
+    def show
+    end
+
 end
