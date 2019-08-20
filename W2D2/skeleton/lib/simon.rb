@@ -14,7 +14,7 @@ class Simon
   end
 
   def take_turn
-
+    show_sequence
   end
 
   def show_sequence
@@ -38,6 +38,6 @@ class Simon
   end
 
   def reset_game
-
+    sequence_length = 1 
   end
 end
